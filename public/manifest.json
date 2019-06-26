@@ -16,7 +16,7 @@
     }
   ],
 
-   "start_url": "/",
+   "start_url": "/loging",
    "background_color": "#32374f",
    "display": "standalone",
    "scope": "/",
