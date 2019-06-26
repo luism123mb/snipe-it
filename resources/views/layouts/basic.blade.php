@@ -75,7 +75,7 @@
         console.log('CLIENT: service worker registration failure.');
       });
     } else {
-      console.log('CLIENT: service worker is not supported.');
+      console.log('CLIENT: service worker is not supported. v2');
     }
 </script>
 
