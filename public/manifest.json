@@ -16,7 +16,7 @@
     }
   ],
 
-   "start_url": "/public",
+   "start_url": "",
    "background_color": "#32374f",
    "display": "standalone",
    "scope": "/",
