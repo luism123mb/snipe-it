@@ -64,7 +64,14 @@
         <a target="_blank" rel="noopener" href="{{  $snipeSettings->privacy_policy_link }}" target="_new">{{ trans('admin/settings/general.privacy_policy') }}</a>
     @endif
     </div>
-
+    
+    <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('/sw.js')
+               .then(function() { console.log("Service Worker Registered"); });
+    }
+    </script>
 </body>
 
 </html>
