@@ -6,8 +6,7 @@ self.addEventListener('install', function(e) {
        '/',
        '/index.html',
        '/index.html?homescreen=1',
-       '/?homescreen=1',
-    
+       '/?homescreen=1'
      ]);
    })
  );
