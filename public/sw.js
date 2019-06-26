@@ -9,3 +9,9 @@ self.addEventListener('install', function(e) {
    })
  );
 });
+
+self.addEventListener('fetch', function(event) {
+
+console.log(event.request.url);
+
+});
