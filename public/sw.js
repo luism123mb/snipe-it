@@ -5,7 +5,9 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
       return cache.addAll([
-        `/`
+        `/`,
+         '/?homescreen=1',
+         '/css/all.css'
       ])
           .then(() => self.skipWaiting());
     })
