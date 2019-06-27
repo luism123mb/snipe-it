@@ -66,7 +66,7 @@
                             @if ($snipeSettings->custom_forgot_pass_url)
                                 <a href="{{ $snipeSettings->custom_forgot_pass_url  }}" rel="noopener"  style="color: #000000!important;">{{ trans('auth/general.forgot_password')  }}</a>
                             @else
-                                <a href="{{ route('password.request')  }}">{{ trans('auth/general.forgot_password')  }}</a>
+                                <a href="{{ route('password.request')  }}" style="color: #000000!important;">{{ trans('auth/general.forgot_password')  }}</a>
                             @endif
 
 
