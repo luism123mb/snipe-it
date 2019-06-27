@@ -11,7 +11,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmy
 sudo wget https://raw.githubusercontent.com/luism123mb/snipe-it/master/snipeit.sh
 sudo chmod 744 snipeit.sh
 sudo ./snipeit.sh 2>&1 | tee -a /var/log/snipeit-install.log
-
+activetrack.activate-it.ca
 3) INSTALL PHPMYADMIN
 
 sudo apt install phpmyadmin php-mbstring php-gettext
@@ -67,4 +67,3 @@ Point A to DNS in other server, add the domain to the other server on the A reco
 //////GIT PULL RESET////////////
 git reset --hard origin/master
                                                                                                                                                  v2
-  
