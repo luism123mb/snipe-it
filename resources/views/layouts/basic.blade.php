@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="{{ url(mix('css/dist/all.css')) }}">
     <link rel="shortcut icon" type="image/ico" href="{{ url(asset('favicon.ico')) }}">
-
+    <link rel="apple-touch-icon" type="image/ico" href="{{ url(asset('favicon.ico')) }}">
 
     @if (($snipeSettings) && ($snipeSettings->header_color))
         <style>
