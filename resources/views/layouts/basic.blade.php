@@ -53,7 +53,7 @@
 
     @if (($snipeSettings) && ($snipeSettings->logo!=''))
         <center>
-            <img id="login-logo" src="{{ url('/') }}/uploads/{{ $snipeSettings->logo }}">
+            <img id="login-logo" alt="asset tracking" src="{{ url('/') }}/uploads/{{ $snipeSettings->logo }}">
         </center>
     @endif
   <!-- Content -->
