@@ -64,7 +64,7 @@
                         </div>
                         <div class="col-md-12 col-sm-12 col-xs-12 text-right" style="padding-top: 10px; color: #000000!important;     background-color: #ffffff!important;">
                             @if ($snipeSettings->custom_forgot_pass_url)
-                                <a href="{{ $snipeSettings->custom_forgot_pass_url  }}" rel="noopener">{{ trans('auth/general.forgot_password')  }}</a>
+                                <a href="{{ $snipeSettings->custom_forgot_pass_url  }}" rel="noopener"  style="color: #000000!important;">{{ trans('auth/general.forgot_password')  }}</a>
                             @else
                                 <a href="{{ route('password.request')  }}">{{ trans('auth/general.forgot_password')  }}</a>
                             @endif
