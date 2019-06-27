@@ -71,3 +71,5 @@ git reset --hard origin/master
 //////////////////////////////PWA/////////////////////////////////////////////////
 https://css-tricks.com/how-to-get-a-progressive-web-app-into-the-google-play-store/
 1)make sure you use the rigth key and the rigth key alias
+2) how google makes a PWA: https://codelabs.developers.google.com/codelabs/offline/#0
+3) android app is in D:/Dropbox/activetrack I need to generate the apk
