@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#32374f"/>
     <title>{{ ($snipeSettings) && ($snipeSettings->site_name) ? $snipeSettings->site_name : 'Snipe-IT' }}</title>
-
+    <meta name="Description" content="asset tracking,
+        free asset tracking">
 
     <!-- Select2 -->
     <link rel="manifest" href="manifest.json" />
