@@ -67,3 +67,7 @@ Point A to DNS in other server, add the domain to the other server on the A reco
 //////GIT PULL RESET////////////
 git reset --hard origin/master
                                                                                                                                                  v2
+
+//////////////////////////////PWA/////////////////////////////////////////////////
+https://css-tricks.com/how-to-get-a-progressive-web-app-into-the-google-play-store/
+1)make sure you use the rigth key and the rigth key alias
