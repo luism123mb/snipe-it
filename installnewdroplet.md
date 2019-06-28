@@ -11,6 +11,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmy
 sudo wget https://raw.githubusercontent.com/luism123mb/snipe-it/master/snipeit.sh
 sudo chmod 744 snipeit.sh
 sudo ./snipeit.sh 2>&1 | tee -a /var/log/snipeit-install.log
+  t.activateit.ca
 activetrack.activate-it.ca
 3) INSTALL PHPMYADMIN
 
@@ -46,6 +47,7 @@ NOTE: make sure you put the domain on the line of code
  sudo git clone https://github.com/letsencrypt/letsencrypt
  cd /usr/local/letsencrypt
  sudo ./letsencrypt-auto --apache -d activetrack.activate-it.ca
+ sudo ./letsencrypt-auto --apache -d t.activateit.ca
  ******NOTE: make sure you put the domain on the line of code********
  *********** Multuple domain *************
  sudo ./letsencrypt-auto --apache -d your_domain.tld  -d www. your_domain.tld
