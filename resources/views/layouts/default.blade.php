@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>
       @section('title')
       @show
@@ -10,6 +11,8 @@
     </title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta name="theme-color" content="#32374f"/>
+
 
     <!-- Select2 -->
     <link rel="manifest" href="/public/manifest.json">
@@ -25,7 +28,7 @@
     <link rel="stylesheet" href="{{ url(mix('css/dist/all.css')) }}">
 
     <link rel="shortcut icon" type="image/ico" href="{{ url(asset('favicon.ico')) }}">
-
+    <link rel="apple-touch-icon" type="image/ico" href="{{ url(asset('favicon.ico')) }}">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <script nonce="{{ csrf_token() }}">
