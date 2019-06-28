@@ -13,27 +13,7 @@ sudo chmod 744 snipeit.sh
 sudo ./snipeit.sh 2>&1 | tee -a /var/log/snipeit-install.log
   t.activateit.ca
 activetrack.activate-it.ca
-3) INSTALL PHPMYADMIN
 
-sudo apt install phpmyadmin php-mbstring php-gettext
-sudo systemctl restart apache2
-
-
-4) OPEN THE DATABASE FILE USING ATOM AND DELETE STDF_
-
-5) INPORT THE DATABASE ON SNIPEIT DATABASE
-
-
-////////////RE RUN OLD DROPLET ////////////
-1)DELET EVERYTHING WITH INSTALLING PAKCAGES AND MARIADB, JUST LEAVE APACHE STUFF ON THE SNIPEIT.SH  FILE LEAVE ANYTHING ELSE, AND COMPARE TO THE REAL FILE FOR DEBUGING
-2)COPY THE IP FROM DROPLET OR SERVER AND PASS IT
-3)COPY PASSWORD FROM OLD .ENV FILE
-4) GO TO PHP MY ADMIN USERS TO FIND LOGING DETAILS ( PHPMYADMIN LOGING USER:SAMMY, PW: PASSWORD)
-5)ENJOY
-
-sudo wget https://raw.githubusercontent.com/luism123mb/snipe-it/master/dropletconfig.sh
-sudo chmod 744 dropletconfig.sh
-sudo ./dropletconfig.sh 2>&1 | tee -a /var/log/dropletconfig.sh
 
 ////////////////FREE SSL SERTIFICATE INSTALL ON APACHE/////////
 
@@ -65,6 +45,31 @@ NOTE: edit virual host
 
 ****Redirect DNS*****
 Point A to DNS in other server, add the domain to the other server on the A record
+
+
+3) INSTALL PHPMYADMIN
+
+sudo apt install phpmyadmin php-mbstring php-gettext
+sudo systemctl restart apache2
+
+
+4) OPEN THE DATABASE FILE USING ATOM AND DELETE STDF_
+
+5) INPORT THE DATABASE ON SNIPEIT DATABASE
+
+
+////////////RE RUN OLD DROPLET ////////////
+1)DELET EVERYTHING WITH INSTALLING PAKCAGES AND MARIADB, JUST LEAVE APACHE STUFF ON THE SNIPEIT.SH  FILE LEAVE ANYTHING ELSE, AND COMPARE TO THE REAL FILE FOR DEBUGING
+2)COPY THE IP FROM DROPLET OR SERVER AND PASS IT
+3)COPY PASSWORD FROM OLD .ENV FILE
+4) GO TO PHP MY ADMIN USERS TO FIND LOGING DETAILS ( PHPMYADMIN LOGING USER:SAMMY, PW: PASSWORD)
+5)ENJOY
+
+sudo wget https://raw.githubusercontent.com/luism123mb/snipe-it/master/dropletconfig.sh
+sudo chmod 744 dropletconfig.sh
+sudo ./dropletconfig.sh 2>&1 | tee -a /var/log/dropletconfig.sh
+
+
 
 //////GIT PULL RESET////////////
 git reset --hard origin/master

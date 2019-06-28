@@ -6,7 +6,6 @@ self.addEventListener('install', e => {
     caches.open(cacheName).then(cache => {
       return cache.addAll([
         `/`,
-         '/?homescreen=1',
          '/css/all.css',
          '/js/app.min.js'
       ])
